@@ -1,3 +1,5 @@
+require 'pp'
+
 file = open("/Users/ivancherevko/Downloads/track1/user_key_word.txt")
 
 keywords = Hash.new(0)
